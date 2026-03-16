@@ -1,0 +1,56 @@
+[
+  {
+    "id": "global-dividend-fund",
+    "name": "Global Dividend Opportunities Fund",
+    "region": "overseas",
+    "category": "global_income",
+    "risk_level": 5,
+    "expected_return_band": "6%-9%",
+    "warnings": ["海外市场波动可能导致净值回撤。", "汇率变化会影响最终收益。"]
+  },
+  {
+    "id": "asia-growth-fund",
+    "name": "Asia Growth Allocation Fund",
+    "region": "overseas",
+    "category": "mixed",
+    "risk_level": 6,
+    "expected_return_band": "8%-12%",
+    "warnings": ["区域市场集中度较高。", "经济周期变化可能影响增长表现。"]
+  },
+  {
+    "id": "usd-bond-income-fund",
+    "name": "USD Bond Income Fund",
+    "region": "overseas",
+    "category": "bond",
+    "risk_level": 3,
+    "expected_return_band": "3%-5%",
+    "warnings": ["利率波动可能影响债券价格。", "美元利率政策会影响组合表现。"]
+  },
+  {
+    "id": "global-tech-select-fund",
+    "name": "Global Tech Select Fund",
+    "region": "overseas",
+    "category": "sector_growth",
+    "risk_level": 8,
+    "expected_return_band": "10%-18%",
+    "warnings": ["科技板块波动较大。", "不适合短周期资金配置。"]
+  },
+  {
+    "id": "domestic-bond-plus-fund",
+    "name": "Domestic Bond Plus Fund",
+    "region": "domestic",
+    "category": "bond",
+    "risk_level": 4,
+    "expected_return_band": "4%-6%",
+    "warnings": ["收益空间相对有限。", "利率下行阶段表现可能趋缓。"]
+  },
+  {
+    "id": "cash-management-fund",
+    "name": "Cash Management Fund",
+    "region": "domestic",
+    "category": "cash",
+    "risk_level": 1,
+    "expected_return_band": "1.5%-2.5%",
+    "warnings": ["主要用于流动性管理，增值能力有限。"]
+  }
+]

@@ -1,0 +1,10 @@
+services:
+  advisor-api:
+    build: .
+    container_name: smart-financial-advisor
+    env_file:
+      - .env
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data:ro
