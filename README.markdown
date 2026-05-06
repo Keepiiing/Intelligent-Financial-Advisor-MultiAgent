@@ -1,6 +1,6 @@
-# 智能金融顾问系统（Multi-Agent 方向）
+# 智能金融顾问系统
 
-一个可直接运行的、面向 GitHub 展示和二次扩展的金融顾问项目骨架。项目采用企业常见的分层方式实现了一个可演示的 Multi-Agent MVP：主 Agent 负责理解需求和编排流程，风险评估 Agent、投资推荐 Agent、合规检查 Agent、内容过滤 Agent 负责执行具体任务，最终通过 FastAPI 提供服务接口。
+一个可直接运行的、二次扩展的金融顾问项目骨架。项目采用企业常见的分层方式实现了一个可演示的 Multi-Agent MVP：主 Agent 负责理解需求和编排流程，风险评估 Agent、投资推荐 Agent、合规检查 Agent、内容过滤 Agent 负责执行具体任务，最终通过 FastAPI 提供服务接口。
 
 这个仓库的目标不是一次性还原完整金融生产系统，而是提供一个“能部署、能演示、结构清晰、便于维护和扩展”的基础版本。默认使用本地示例数据运行，无需外部依赖即可完成端到端演示；当你需要接入真实的市场数据 API、Milvus、Neo4j、vLLM 时，可以直接替换 `app/services` 与 `app/repositories` 下的适配层实现。
 
@@ -17,7 +17,7 @@
 
 - Python 3.11
 - FastAPI
-- LangGraph（默认优先使用，未安装时自动降级为本地编排）
+- LangGraph
 - Pydantic / pydantic-settings
 - Uvicorn
 - Pytest
